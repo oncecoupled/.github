@@ -1,0 +1,17 @@
+# Config files:
+**/.deployignore
+**/.editorconfig
+**/.gitattributes
+**/.gitignore
+**/.prettierignore
+**/.prettierrc
+
+# File types:
+**/*.css
+**/*.svg
+
+# Vendor files:
+**/vendor/*
+
+# WPRM HTML files:
+**/wprm-templates/recipe/**/*.html

@@ -1,2 +1,30 @@
-# Auto detect text files and perform LF normalization
+# Normalizes line endings.
+
+# https://help.github.com/en/github/using-git/configuring-git-to-handle-line-endings
+# https://adaptivepatchwork.com/2012/03/01/mind-the-end-of-your-line/
+# http://schacon.github.io/git/gitattributes.html
+
+# Set the default behavior.
 * text=auto
+
+# Definitely convert to lf.
+*.css text
+*.js text
+*.json text
+*.php text
+*.txt text
+*.xml text
+.htaccess text
+
+# Do not modify binary files.
+*.eot binary
+*.gif binary
+*.ico binary
+*.jpeg binary
+*.jpg binary
+*.pdf binary
+*.png binary
+*.ttf binary
+*.woff binary
+*.woff2 binary
+*.zip binary
